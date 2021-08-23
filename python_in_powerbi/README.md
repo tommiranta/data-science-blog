@@ -8,14 +8,21 @@ This example assumes that Power BI Desktop ([download for free](https://powerbi.
 
 ## Setting up Python in Power BI
 * Clone or download the repository
-* Open terminal/console and navigate to the `python_in_powerbi` folder
-* Run `pipenv install` to install all required packages (alternatively run with the `--dev` option to also install pep8 linter)
+* Open Command Prompt and navigate to the `python_in_powerbi` folder
+* Run `pipenv install` to install all required packages (add the `--dev` option to include pep8 linter)
 * Run `pipenv --venv` and take note of the location of the virtual environment
-* Open Power BI Desktop and open the `Options`
- * Navigate to `Preview features`and enable `Python support` (a restart of Power BI required at this point)
+* Open Power BI Desktop and open the `Options & Settings` > `Options`
  * Navigate to `Python scripting` and change the `Detected Python home directories` to `Other`
  * `Browse` to the `Scripts` folder that is found in the newly created virtual environment.
  * Click OK and you're ready for Python in Power BI!
+
+ ### Use virtualenv as Python environment (optional)
+ You can use virtualenv instead of pipenv to manage the Python environment for Power BI. Just replace the pipenv steps above with the following commands.
+* Open the Command Prompt and navigate to the `python_in_powerbi` folder
+* `python -m venv venv` to create a virtual environment
+* `venv\Scripts\activate.bat` to activate the virtual environment
+* `(venv) pip install -r requirements.txt` to install the Python libraries
+* The path to your python environment is `<full_path_to_python_in_powerbi>\venv\Scripts` 
 
  ## Using Python in Power BI
  Read my blog post for a step-by-step walkthrough how to use Python in Power BI.
