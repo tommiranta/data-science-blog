@@ -9,3 +9,4 @@ This article showcases how to use Python scripts in Power BI. It covers the foll
 * Add Python visuals to a Power BI report
 
 https://github.com/tompp4/data-science-blog/tree/master/python_in_powerbi
+ 
