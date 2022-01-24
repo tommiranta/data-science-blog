@@ -15,7 +15,7 @@ defusedxml==0.7.1
 entrypoints==0.3
 idna==3.2
 ipykernel==6.2.0
-ipython==7.26.0
+ipython==7.31.1
 ipython-genutils==0.2.0
 jedi==0.18.0
 Jinja2==3.0.1
