@@ -1,4 +1,4 @@
-anyio==3.3.0
+anyio==4.14.2
 appnope==0.1.2
 argon2-cffi==20.1.0
 attrs==21.2.0
